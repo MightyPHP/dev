@@ -1,0 +1,5 @@
+[default]
+servername = "acowcan.mooo.com:8086";
+username = "popmall";
+password = "16d@mCwClCso9";
+database = 'popmall';
