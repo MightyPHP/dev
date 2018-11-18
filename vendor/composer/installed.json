@@ -1,17 +1,114 @@
 [
     {
-        "name": "phpseclib/phpseclib",
-        "version": "2.0.11",
-        "version_normalized": "2.0.11.0",
+        "name": "mightyphp/mightycms",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/phpseclib/phpseclib.git",
-            "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b"
+            "url": "https://github.com/MightyPHP/MightyCMS.git",
+            "reference": "de75c76861937db3dfd501966cae0054ef5efa5d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7053f06f91b3de78e143d430e55a8f7889efc08b",
-            "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b",
+            "url": "https://api.github.com/repos/MightyPHP/MightyCMS/zipball/de75c76861937db3dfd501966cae0054ef5efa5d",
+            "reference": "de75c76861937db3dfd501966cae0054ef5efa5d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-10-20T01:59:56+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "MightyCMS\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Desmond Chin Chung Choon",
+                "email": "desmond@desmondchin.xyz",
+                "homepage": "https://desmondchin.xyz",
+                "role": "Developer"
+            }
+        ],
+        "description": "The CMS plugin for MightyPHP Framework",
+        "homepage": "https://mightyphp.github.io",
+        "keywords": [
+            "cms",
+            "framework",
+            "mvc",
+            "php",
+            "php-framework",
+            "plugin"
+        ]
+    },
+    {
+        "name": "mightyphp/mightycore",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MightyPHP/MightyCore.git",
+            "reference": "92432f612e9289e948c985998ec8302358ecb886"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MightyPHP/MightyCore/zipball/92432f612e9289e948c985998ec8302358ecb886",
+            "reference": "92432f612e9289e948c985998ec8302358ecb886",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-18T09:41:09+00:00",
+        "type": "framework",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "MightyCore\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Desmond Chin Chung Choon",
+                "email": "desmond@desmondchin.xyz",
+                "homepage": "https://desmondchin.xyz",
+                "role": "Developer"
+            }
+        ],
+        "description": "The Core Framework for MightyPHP Framework",
+        "homepage": "https://mightyphp.github.io",
+        "keywords": [
+            "core",
+            "framework",
+            "mvc",
+            "php",
+            "php-framework"
+        ]
+    },
+    {
+        "name": "phpseclib/phpseclib",
+        "version": "2.0.12",
+        "version_normalized": "2.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpseclib/phpseclib.git",
+            "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8814dc7841db159daed0b32c2b08fb7e03c6afe7",
+            "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7",
             "shasum": ""
         },
         "require": {
@@ -29,7 +126,7 @@
             "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
             "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
         },
-        "time": "2018-04-15T16:55:05+00:00",
+        "time": "2018-11-04T05:45:48+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -91,55 +188,6 @@
             "twofish",
             "x.509",
             "x509"
-        ]
-    },
-    {
-        "name": "mightyphp/mightycms",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/MightyPHP/MightyCMS.git",
-            "reference": "de75c76861937db3dfd501966cae0054ef5efa5d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/MightyPHP/MightyCMS/zipball/de75c76861937db3dfd501966cae0054ef5efa5d",
-            "reference": "de75c76861937db3dfd501966cae0054ef5efa5d",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "time": "2018-10-20T01:59:56+00:00",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "MightyCMS\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Desmond Chin Chung Choon",
-                "email": "desmond@desmondchin.xyz",
-                "homepage": "https://desmondchin.xyz",
-                "role": "Developer"
-            }
-        ],
-        "description": "The CMS plugin for MightyPHP Framework",
-        "homepage": "https://mightyphp.github.io",
-        "keywords": [
-            "cms",
-            "framework",
-            "mvc",
-            "php",
-            "php-framework",
-            "plugin"
         ]
     }
 ]

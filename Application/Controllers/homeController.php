@@ -1,4 +1,7 @@
 <?php
+
+use MightyCore\CONTROLLER;
+
 class homeController extends CONTROLLER
 {
     public function indexAction() {  

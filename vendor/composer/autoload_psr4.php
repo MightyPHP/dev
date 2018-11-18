@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpseclib\\' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
+    'MightyCore\\' => array($vendorDir . '/mightyphp/mightycore/src'),
     'MightyCMS\\' => array($vendorDir . '/mightyphp/mightycms/src'),
 );

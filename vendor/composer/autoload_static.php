@@ -17,6 +17,7 @@ class ComposerStaticInitcf6ca5b251ce4379157eab3c8ba62e53
         ),
         'M' => 
         array (
+            'MightyCore\\' => 11,
             'MightyCMS\\' => 10,
         ),
     );
@@ -25,6 +26,10 @@ class ComposerStaticInitcf6ca5b251ce4379157eab3c8ba62e53
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'MightyCore\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mightyphp/mightycore/src',
         ),
         'MightyCMS\\' => 
         array (

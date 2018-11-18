@@ -1,18 +1,12 @@
 
 <?php
 
-/**
- * Description of api
- *
- * @author DESMOND
- */
-
 include_once 'Configs/config.php';
 
-if(MIGHTY_MODE == 'dev'){
+//if(MIGHTY_MODE == 'dev'){
  error_reporting(E_ALL);
  ini_set('display_errors','On');
-}
+//}
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -43,7 +37,7 @@ if (!array_key_exists('HTTP_ORIGIN', $_SERVER)) {
 
 
 try {
-	$APP = new APP($_REQUEST, $_SERVER);
+	$APP = new \MightyCore\APP($_REQUEST, $_SERVER);
 	$APP->callAPP();
 } catch (Exception $e) {
     echo json_encode(Array('error' => $e->getMessage()));
